@@ -6,11 +6,7 @@ body {
     background-color: black;
 }
 
-.container
-{
-	width: 900px;
-	margin: 0 auto;
-}
+
 /* --------------- formatowanie header -------------*/
 header{
 padding-top: 40px;
@@ -46,6 +42,28 @@ border-radius: 10px;
 	letter-spacing: 1px;
 }
 
+.ikona{
+	clear: both;
+	position: absolute;
+	right:0;
+	bottom: 0%;
+	position: fixed;
+	
+}
+
+.ikona img{
+	width: 60px;
+	height: 60px;
+	display:flex;
+	padding: 5px;
+}
+/* --------main---------- */
+main{
+	width: 75%;
+	margin: 0 auto;
+	height: auto;
+}
+
 nav
 {
 	color: #fff;
@@ -68,7 +86,7 @@ nav
 
 	margin: 0 8px;
 	list-style-type: none;
-	font-size: 20px;
+	font-size: 15px;
 	min-height: 35px;
 	line-height: 200%;
 	display: inline-block;
@@ -92,7 +110,90 @@ a.active
 	cursor: default;
 }
 
+.menu_ikony {
+	margin: 0;
+	padding: 0;
+}
+  
+.menu_ikony li
+{
+	margin: 0 8px;
+	display: inline-block;
+}
+
+.menu_ikony img{
+	width: 50px;
+	height: 50px;
+}
+
+.contener{
+	margin: auto;
+	width: 100%;
+	border-radius: 15px;
+	margin-top: 20px;
+	box-shadow: 0px 2px 15px;
+	display: flex;
+  }
+
+.artical{
+	width: 49%;
+	margin: 20px;
+	border-radius: 20px;
+	background-image: url(zdj/laptop.jpg);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+.artical2{
+	width: 49%;
+	margin: 20px;
+	border-radius: 20px;
+	background-image: url(zdj/komputer.jpg);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.artical a{
+	text-decoration: none;
+	color:#7b0000ff;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.artical2 a{
+	text-decoration: none;
+	color:#7b0000ff;
+	font-weight: 700;
+	font-size: 20px;
+}
 
 
 
+/* --------------- formatowanie footer -------------*/
+
+.copyrights{
+	text-align: center;
+	color: #7b0000ff;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 5px;
+}
+
+footer{
+	height: 100px;
+	background-color: #333 ;
+	margin-top: auto;
+	text-align: center;
+	justify-content: space-between;
+	display: flex;
+  
+  }
+  
 

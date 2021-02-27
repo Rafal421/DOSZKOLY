@@ -1,199 +1,201 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Georgia;
-    font-family: 'Raleway', sans-serif;
-    background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
 }
-
 
 /* --------------- formatowanie header -------------*/
-header{
-padding-top: 40px;
-background-color: rgba(0, 0, 0, 0.4);
-background-image: url("zdj/test.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-width: 100%;
-height: 300px;
-background-position: 100%;
+header {
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("zdj/test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 100%;
+  padding-bottom: 40px;
 }
 
-.inside_header{
-background-color: rgba(0, 0, 0, 0.4);
-text-align: center;
-margin: auto;
-height: 200px;
-width: 900px;
-border-radius: 10px;
+.inside_header {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.inside_header img{
-    padding: 20px;
-	height: 150px;
+.inside_header img {
+  padding: 20px;
+  height: 150px;
 }
 
-.inside_header p{
-    font-size: 18px;
-	font-weight: 400;
-	color: red;
-	margin: 0;
-	padding: 0;
-	letter-spacing: 1px;
+.inside_header p {
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
 }
 
-.ikona{
-	clear: both;
-	position: absolute;
-	right:0;
-	bottom: 0%;
-	position: fixed;
-	
+.ikona {
+  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  position: fixed;
 }
 
-.ikona img{
-	width: 60px;
-	height: 60px;
-	display:flex;
-	padding: 5px;
+.ikona img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 5px;
 }
+
 /* --------main---------- */
-main{
-	width: 75%;
-	margin: 0 auto;
-	height: auto;
+main {
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
 }
 
-nav
-{
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-	padding: 20px 0;
+nav {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.menu 
-{
-	margin: 0;
-	padding: 10px 0;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+.menu {
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
-.menu li
-{
-
-	margin: 0 8px;
-	list-style-type: none;
-	font-size: 15px;
-	min-height: 35px;
-	line-height: 200%;
-	display: inline-block;
+.menu li {
+  margin: 0 8px;
+  list-style-type: none;
+  font-size: 15px;
+  min-height: 35px;
+  line-height: 200%;
+  display: inline-block;
 }
 
-.menu a
-{
-	color: #fff;
-	text-decoration: none;
-	display: block;
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
 }
 
-.menu a:hover
-{
-	color: red;
+.menu a:hover {
+  color: red;
 }
 
-a.active
-{
-	color: red;
-	cursor: default;
+a.active {
+  color: red;
+  cursor: default;
 }
 
 .menu_ikony {
-	margin: 0;
-	padding: 0;
-}
-  
-.menu_ikony li
-{
-	margin: 0 8px;
-	display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
-.menu_ikony img{
-	width: 50px;
-	height: 50px;
+.menu_ikony li {
+  margin: 0 8px;
+  display: inline-block;
 }
 
-.contener{
-	margin: auto;
-	width: 100%;
-	border-radius: 15px;
-	margin-top: 20px;
-	box-shadow: 0px 2px 15px;
-	display: flex;
-  }
-
-.artical{
-	width: 49%;
-	margin: 20px;
-	border-radius: 20px;
-	background-image: url(zdj/laptop.jpg);
-	background-position: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	color: white;
+.menu_ikony img:hover {
+  opacity: 0.7;
 }
 
-.artical2{
-	width: 49%;
-	margin: 20px;
-	border-radius: 20px;
-	background-image: url(zdj/komputer.jpg);
-	background-position: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	color: white;
-	text-decoration: none;
+.menu_ikony img {
+  width: 50px;
+  height: 50px;
+  padding: 0 10px 0 10px;
 }
 
-.artical a{
-	text-decoration: none;
-	color:#7b0000ff;
-	font-weight: 700;
-	font-size: 20px;
+.contener {
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 15px;
+  display: flex;
 }
 
-.artical2 a{
-	text-decoration: none;
-	color:#7b0000ff;
-	font-weight: 700;
-	font-size: 20px;
+.article {
+  width: 49%;
+  margin: 20px;
+  border-radius: 20px;
+  background-image: url(zdj/laptop.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
 }
 
-
+.article a {
+  text-decoration: none;
+  color: #7b0000ff;
+  font-weight: 700;
+  font-size: 20px;
+}
 
 /* --------------- formatowanie footer -------------*/
 
-.copyrights{
-	text-align: center;
-	color: #7b0000ff;
-	font-weight: 700;
-	font-size: 20px;
-	margin: 5px;
+.copyrights {
+  text-align: center;
+  color: #7b0000ff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px;
 }
 
-footer{
-	height: 100px;
-	background-color: #333 ;
-	margin-top: auto;
-	text-align: center;
-	justify-content: space-between;
-	display: flex;
-  
-  }
-  
+footer {
+  height: 100px;
+  background-color: #333;
+  margin-top: auto;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
 
+@media only screen and (max-width: 900px) {
+  .contener {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .article {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+
+  .inside_header img {
+    width: 100%;
+    padding: 20px 0 20px;
+  }
+
+  .inside_header {
+    padding: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .menu_ikony img {	
+    padding: 0 2px 0 2px;
+  }
+}

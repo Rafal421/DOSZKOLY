@@ -223,6 +223,12 @@ input[type=reset]{
 
 .zainteresowania{
   text-align: center;
+  width: 100%;
+}
+
+.zainteresowania2{
+  text-align: center;
+  width: 100%;
 }
 
 .button{
@@ -231,6 +237,11 @@ input[type=reset]{
 
 #widomosc{
   resize: none;
+}
+
+.zain-change{
+  display: flex;
+  margin: 0%;
 }
 /* --------------- formatowanie mapa -------------*/
 

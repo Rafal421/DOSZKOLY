@@ -18,12 +18,12 @@
     <main>
       <nav>
         <ul class="menu">
-          <li><a href="#" class="active">Strona główna</a></li>
+          <li><a href="file:///C:/Users/Informatyk421/Documents/GitHub/DOSZKOLY/index.html">Strona główna</a></li>
           <li><a href="#">Żrudła</a></li>
           <li><a href="#">O Autorze</a></li>
           <li><a href="#">Galeria</a></li>
           <li><a href="#">Linki</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="file:///C:/Users/Informatyk421/Documents/GitHub/DOSZKOLY/kontakt.html" class="active"> Kontakt</a></li>
         </ul>
       </nav>
 
@@ -61,7 +61,7 @@
         <h2>Skontaktuj się z nami </h2>
       </div>
 
-      <form action="">
+      <form action="text">
         <p class="kolumny">
             <label>
                 <span>Imię<span style="color: orange;">*</span></span>
@@ -73,14 +73,17 @@
               <input type="text" name="Nazwisko" placeholder="Kowalski" required>
             </label>
         </p>
-        <label class="zainteresowania">
+
+        <div class="zainteresowania">
+        <label>
           <span style="margin: 0;">Płeć:</span>
           <input type="radio" name="plec" >Mężczyzna
-          <input type="radio" name="plec">Kobieta
+          <input type="radio" name="plec" >Mężczyzna
           <input type="radio" name="plec">inne
           <input type="radio" name="plec">x
         </label>
-        
+
+        </div>
         <p class="kolumny">
             <label>
                 <span>Lat</span>
@@ -104,21 +107,21 @@
                 </select>
             </label>
         </p>
-
+        <div class="zainteresowania">
         <p class="kolumny">
-          <label class="zainteresowania">
-            <span style="margin: 0;">Zainteresowanie Serwisem:</span>
-            <input type="checkbox" name="plec" >Komputera
-            <input type="checkbox" name="plec">Laptopa
-            <input type="checkbox" name="plec">Telefonu
-            <input type="checkbox" name="plec">Drukarki
-            <input type="checkbox" name="plec">Konsoli
-            <input type="checkbox" name="plec">Karty Graficznej
-            <label>
+          <label>
+            <span style="margin: 0;">Zainteresowanie Serwisem:</span> 
+            <input type="checkbox" name="text" >Komputera
+            <input type="checkbox" name="text">Laptopa
+            <input type="checkbox" name="text">Telefonu
+            <input type="checkbox" name="text">Drukarki
+            <input type="checkbox" name="text">Konsoli
+            <input type="checkbox" name="text">Karty Graficznej
+          </label>
         </p>
-
+        </div>
         <p>
-            <label for="Wiadomośc">
+            <label for="Wiadomosc">
                 <span>Twoja wiadomość<span style="color: orange;">*</span></span>
                 <textarea id="wiadomosc" name="wiadomosc" rows="10" cols="75" style="width: 100%; border-radius: 4px;" required></textarea>
                 <span class="xD">Wprowadz informacji dotyczącej twoejej srpawy</span>
@@ -136,7 +139,19 @@
         </p>
         </div>
     </form>
+    <div class="question"><h2>Miesjce docelowe firmy</h2></div>
+    <div class="map-kontakt">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d34483.26561063031!2d19.16131532312716!3d50.03039468045135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x139a40db2b1809fe!2sPowiatowe%20Centrum%20Kszta%C5%82cenia%20Technicznego%20i%20Bran%C5%BCowego.!5e0!3m2!1spl!2spl!4v1614615470538!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+    </div>  
+
+    <div class="kontakt">
+      <p>Rafał Haczek</p>
+      <p>rafal.haczek@gmail.com</p>
+      <p>+48 504 447 802</p>
+      <p>Oświecim Stanisławy Leszczyńskiej 8</p>
+    </div>
     </main>
+
 
     <div class="copyrights">© Copyright 2021 | All Rights Reserved.</div>
 

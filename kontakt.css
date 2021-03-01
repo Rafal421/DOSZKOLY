@@ -232,6 +232,24 @@ input[type=reset]{
 #widomosc{
   resize: none;
 }
+/* --------------- formatowanie mapa -------------*/
+
+.map-kontakt{
+  margin: auto;
+  width: 55%;
+}
+
+iframe{
+  width: 100%;
+  height: 225px;
+  border-radius: 20px;
+  border: 20px solid red;
+}
+
+.kontakt{
+  text-align: center;
+  color: white;
+}
 
 /* --------------- formatowanie footer -------------*/
 

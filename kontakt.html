@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="kontakt.css" />
+    <link rel="shortcut icon" href="zdj/logo.svg" />
+    <title>SERVICE BOTFIX</title>
+  </head>
+  <body>
+    <header>
+      <div class="inside_header">
+        <img class="logo" src="zdj/logo.svg" alt="ikony" />
+        <img src="zdj/logo4.svg" alt="background" />
+      </div>
+    </header>
+    <main>
+      <nav>
+        <ul class="menu">
+          <li><a href="#" class="active">Strona główna</a></li>
+          <li><a href="#">Żrudła</a></li>
+          <li><a href="#">O Autorze</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Linki</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <nav>
+        <ul class="menu_ikony">
+          <li>
+            <a href="https://pl-pl.facebook.com/"
+              ><img src="zdj/facbook.svg" alt="facbook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="zdj/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/"
+              ><img src="zdj/reddit.svg" alt="reddit"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=pl"
+              ><img src="zdj/twitter.svg" alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="zdj/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="question">
+        <h2>Skontaktuj się z nami </h2>
+      </div>
+
+      <form action="">
+        <p class="kolumny">
+            <label>
+                <span>Imię<span style="color: orange;">*</span></span>
+                <input type="text" name="Imie" placeholder="Jan" required>
+            </label>
+        
+            <label>
+              <span>Nazwisko<span style="color: orange;">*</span></span>
+              <input type="text" name="Nazwisko" placeholder="Kowalski" required>
+            </label>
+        </p>
+        <label class="zainteresowania">
+          <span style="margin: 0;">Płeć:</span>
+          <input type="radio" name="plec" >Mężczyzna
+          <input type="radio" name="plec">Kobieta
+          <input type="radio" name="plec">inne
+          <input type="radio" name="plec">x
+        </label>
+        
+        <p class="kolumny">
+            <label>
+                <span>Lat</span>
+                <input type="number" name="number" min="1" max="105" value="10">
+            </label>
+            <label>
+                <span>Marka przedmiotu</span>
+                <select name="planety">
+                    <option value="1" selected>Asus</option>
+                    <option value="1">Msi</option>
+                    <option value="1">Apple</option>
+                    <option value="1">Dell</option>
+                    <option value="1">Sony</option>
+                    <option value="1">Samsung</option>
+                    <option value="1">Lenovo</option>
+                    <option value="1">Huawei</option>
+                    <option value="1">Acer</option>
+                    <option value="1">Hp</option>
+                    <option value="1">xiaomi</option>
+                    <option value="1">inne</option>
+                </select>
+            </label>
+        </p>
+
+        <p class="kolumny">
+          <label class="zainteresowania">
+            <span style="margin: 0;">Zainteresowanie Serwisem:</span>
+            <input type="checkbox" name="plec" >Komputera
+            <input type="checkbox" name="plec">Laptopa
+            <input type="checkbox" name="plec">Telefonu
+            <input type="checkbox" name="plec">Drukarki
+            <input type="checkbox" name="plec">Konsoli
+            <input type="checkbox" name="plec">Karty Graficznej
+            <label>
+        </p>
+
+        <p>
+            <label for="Wiadomośc">
+                <span>Twoja wiadomość<span style="color: orange;">*</span></span>
+                <textarea id="wiadomosc" name="wiadomosc" rows="10" cols="75" style="width: 100%; border-radius: 4px;" required></textarea>
+                <span class="xD">Wprowadz informacji dotyczącej twoejej srpawy</span>
+            </label>
+
+            <label class="checkbox">
+              <span> <input type="checkbox" name="check" required> Zapoznałem się z regulaminem rejestracji <span style="color: orange;">*</span></span>
+          </label>
+        </p>
+        
+        <div class="button">
+        <p>
+            <input type="submit" value="Zajerejstruj">
+            <input type="reset" value="Reset">
+        </p>
+        </div>
+    </form>
+    </main>
+
+    <div class="copyrights">© Copyright 2021 | All Rights Reserved.</div>
+
+    <footer></footer>
+  </body>
+</html>

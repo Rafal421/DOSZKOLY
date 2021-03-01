@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+
+/* --------------- formatowanie header -------------*/
+header {
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("zdj/test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 100%;
+  padding-bottom: 40px;
+}
+
+.inside_header {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.inside_header img {
+  padding: 20px;
+  height: 150px;
+}
+
+.inside_header p {
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.ikona {
+  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  position: fixed;
+}
+
+.ikona img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 5px;
+}
+
+/* --------main---------- */
+main {
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+}
+
+nav {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.menu li {
+  margin: 0 8px;
+  list-style-type: none;
+  font-size: 15px;
+  min-height: 35px;
+  line-height: 200%;
+  display: inline-block;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+a.active {
+  color: red;
+  cursor: default;
+}
+
+.menu_ikony {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_ikony li {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+.menu_ikony img:hover {
+  opacity: 0.7;
+}
+
+.menu_ikony img {
+  width: 50px;
+  height: 50px;
+  padding: 0 10px 0 10px;
+}
+
+.question{
+  padding-top:20px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  padding-bottom:30px;
+}
+
+.question h2{
+  margin: 2px;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+/* --------------- formatowanie formularz -------------*/
+
+form{
+  background-image: url(zdj/backcode.jpg);
+  opacity: 0.7;
+  width: 60%;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 20px;
+}
+
+
+label {
+  display: block;
+  padding: 0 15px;
+}
+
+label>span {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 6px;
+  font-size: 12px;
+}
+
+input[type=text], 
+input[type=email],
+input[type=number],
+select {
+  background: #f0f0f0;
+  border: 1px solid #999;
+  padding: 6px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+
+.kolumny{
+display: flex; 
+justify-content: space-between;
+}
+
+.kolumny>label{
+  flex-grow: 1;
+}
+
+input[type=radio]{
+  color: white;
+}
+
+
+input[type=submit]{
+  background-color: #7b0000ff;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  color: white;
+}
+
+input[type=reset]{
+  background-color:black;
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  color: white;
+}
+
+.rezerwacje{
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  
+}
+
+.zainteresowania{
+  text-align: center;
+}
+
+.button{
+  text-align: right;
+}
+
+#widomosc{
+  resize: none;
+}
+
+/* --------------- formatowanie footer -------------*/
+
+.copyrights {
+  text-align: center;
+  color: #7b0000ff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px;
+}
+
+footer {
+  height: 100px;
+  background-color: #333;
+  margin-top: auto;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .contener {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .article {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+
+  .inside_header img {
+    width: 100%;
+    padding: 20px 0 20px;
+  }
+
+  .inside_header {
+    padding: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .menu_ikony img {	
+    padding: 0 2px 0 2px;
+  }
+
+  form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .question{
+    padding-top: 20px;
+  }
+}
+
+
+      

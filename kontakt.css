@@ -90,6 +90,7 @@ nav {
   color: #fff;
   text-decoration: none;
   display: block;
+  font-size: 20px;
 }
 
 .menu a:hover {
@@ -313,7 +314,7 @@ nav .mainMenu .closeMenu , .icons i {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 830px) {
   .contener {
     flex-direction: column;
     justify-content: center;

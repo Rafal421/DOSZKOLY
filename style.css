@@ -56,8 +56,9 @@ header {
 
 /* --------main---------- */
 main {
+  height: 50px;
   width: 75%;
-  margin: 0 auto;
+  margin: auto;
   height: auto;
 }
 
@@ -89,6 +90,7 @@ nav {
   color: #fff;
   text-decoration: none;
   display: block;
+  font-size: 20px;
 }
 
 .menu a:hover {

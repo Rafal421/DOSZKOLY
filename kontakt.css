@@ -301,8 +301,13 @@ nav .mainMenu .closeMenu , .icons i {
   display: none;
 }
 
+@media only screen and (max-width: 1300px) {
+  form{
+    width: 70%;
+  }
+}
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .contener {
     flex-direction: column;
     justify-content: center;

@@ -305,6 +305,12 @@ nav .mainMenu .closeMenu , .icons i {
   form{
     width: 70%;
   }
+
+  @media only screen and (max-width: 905px){
+    .logo{
+      display: none;
+    }
+  }
 }
 
 @media only screen and (max-width: 800px) {

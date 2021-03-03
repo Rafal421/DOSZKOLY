@@ -270,7 +270,11 @@ nav .mainMenu .closeMenu , .icons i {
   display: none;
 }
 
-
+@media only screen and (max-width: 905px){
+  .logo{
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 700px) {
   .contener {

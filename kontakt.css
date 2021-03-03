@@ -66,7 +66,8 @@ nav {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  padding: 20px 0;
+  margin-top: 20px;
+  
 }
 
 .menu {
@@ -101,7 +102,7 @@ a.active {
 }
 
 .menu_ikony {
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
 }
 
@@ -121,7 +122,6 @@ a.active {
 }
 
 .question{
-  padding-top:20px;
   text-align: center;
   margin: auto;
   color: white;
@@ -132,10 +132,13 @@ a.active {
   margin: 2px;
   font-weight: 700;
   font-size: 30px;
-  margin: 0;
   padding: 10px 0;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+
+.question-top{
+  margin-top: 20px;
 }
 /* --------------- formatowanie formularz -------------*/
 
@@ -230,6 +233,7 @@ input[type=reset]{
 .zainteresowania2{
   text-align: center;
   width: 100%;
+  display: none;
 }
 
 .button{
@@ -287,6 +291,14 @@ footer {
   color: white;
 }
 
+nav .openMenu {
+  display: none;
+  margin: 0;
+}
+nav .mainMenu .closeMenu , .icons i {
+  display: none;
+}
+
 
 @media only screen and (max-width: 900px) {
   .contener {
@@ -317,8 +329,8 @@ footer {
     width: 100%;
   }
 
-  .menu_ikony img {	
-    padding: 0 2px 0 2px;
+  .menu_ikony{
+    margin: 0;
   }
 
   form{
@@ -328,7 +340,71 @@ footer {
   }
 
   .question{
-    padding-top: 20px;
+    padding-top: 0;
+  }
+
+
+  nav{
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid white;
+    
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li{
+    font-size: 20px;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: red;
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  nav .openMenu {
+    font-size: 2rem;
+    cursor: pointer;
+    
+  }
+  nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {color:#7b0000ff;}
+  .fa-twitter:hover {color: #7b0000ff;}
+  .fa-instagram:hover {color:#7b0000ff;}
+  .fa-github:hover {color:#7b0000ff}
+
+  .menu_ikony img {
+    width: 30px;
+    height: 30px;
+    padding: 2px 5px 0 5px;
   }
 }
 

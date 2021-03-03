@@ -262,6 +262,20 @@ footer {
   display: flex;
 }
 
+
+
+
+
+nav .openMenu {
+  display: none;
+  margin: 0;
+}
+nav .mainMenu .closeMenu , .icons i {
+  display: none;
+}
+
+
+
 @media only screen and (max-width: 900px) {
   .contener {
     flex-direction: column;
@@ -294,4 +308,56 @@ footer {
   .menu_ikony img {	
     padding: 0 2px 0 2px;
   }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li{
+    font-size: 20px;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: red;
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    cursor: pointer;
+    margin: 0;
+  }
+  nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {color:#7b0000ff;}
+  .fa-twitter:hover {color: #7b0000ff;}
+  .fa-instagram:hover {color:#7b0000ff;}
+  .fa-github:hover {color:#7b0000ff}
+  
 }

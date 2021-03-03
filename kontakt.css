@@ -252,7 +252,7 @@ textarea {
 
 .map-kontakt{
   margin: auto;
-  width: 55%;
+  width: 80%;
 }
 
 iframe{
@@ -265,6 +265,8 @@ iframe{
 .kontakt{
   text-align: center;
   color: white;
+  margin-top: 30px;
+  margin-bottom: 30px ;
 }
 
 /* --------------- formatowanie footer -------------*/

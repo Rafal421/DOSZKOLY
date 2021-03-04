@@ -151,7 +151,6 @@ form{
   margin: auto;
   padding: 10px;
   display: flex;
-  text-align: center;
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,8 +160,7 @@ form{
 
 
 label {
-  display: block;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 label>span {
@@ -234,7 +232,8 @@ input[type=reset]{
 .zainteresowania2{
   text-align: center;
   width: 100%;
-  display: none;
+  padding: 0;
+  margin: 0;
 }
 
 .button{
@@ -243,11 +242,16 @@ input[type=reset]{
 
 textarea {
   resize: none;
+  width: 150px;
 }
 
 .zain-change{
   display: flex;
   margin: 0%;
+}
+
+.columny{
+  padding: 0;
 }
 /* --------------- formatowanie mapa -------------*/
 
@@ -268,6 +272,10 @@ iframe{
   color: white;
   margin-top: 30px;
   margin-bottom: 30px ;
+}
+
+.odstep{
+  margin: 0;
 }
 
 /* --------------- formatowanie footer -------------*/
@@ -419,6 +427,10 @@ nav .mainMenu .closeMenu , .icons i {
     width: 30px;
     height: 30px;
     padding: 2px 5px 0 5px;
+  }
+
+  label{
+    display: block;
   }
 }
 

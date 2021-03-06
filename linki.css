@@ -123,7 +123,47 @@ a.active {
 }
 
 
-/* --------------- formatowanie slider -------------*/
+/* --------------- formatowanie promo -------------*/
+
+.promo h2 {
+  text-align: center;
+  margin: 2px;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 10px 0;
+  width: 85%;
+  margin: auto;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.firmy-box{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.margin-all{
+  margin: 30px;
+}
+
+.tluste img{
+  width: 60%;
+}
+
+.audiofilek img{
+  width: 60%;
+}
+
+.Exoternet img{
+  width: 60%;
+}
+
 
 
 /* --------------- formatowanie footer -------------*/
@@ -133,7 +173,8 @@ a.active {
   color: #7b0000ff;
   font-weight: 700;
   font-size: 20px;
-  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -157,6 +198,34 @@ nav .mainMenu .closeMenu , .icons i {
   .logo{
     display: none;
   }
+
+  .firmy-box{
+    margin-top: 20px;
+  }
+  .margin-all{
+    margin:20px 8px 20px 8px;
+  }
+
+  .firmy-box{
+    width: 100%;
+  }
+
+  .tluste img{
+    width: 70%;
+  }
+  
+  .audiofilek img{
+    width: 70%;
+  }
+  
+  .Exoternet img{
+    width: 70%;
+  }
+  
+  .promo h2{
+    font-size: 20px;
+  }
+  
 }
 
 @media only screen and (max-width: 700px) {

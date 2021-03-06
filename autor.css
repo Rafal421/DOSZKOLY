@@ -183,6 +183,11 @@ nav .mainMenu .closeMenu , .icons i {
   display: none;
 }
 
+.mainMenu{
+  justify-content: center;
+}
+
+
 @media only screen and (max-width: 905px){
   .logo{
     display: none;

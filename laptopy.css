@@ -330,7 +330,28 @@ nav .mainMenu .closeMenu , .icons i {
   justify-content: center;
 }
 
+@media only screen and (max-width: 1270px){
+  .uslugi{
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .usluga{
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+
+  .photos{
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  .background{
+    width: 95%;
+    margin: auto;
+  }
+
+}
 @media only screen and (max-width: 905px){
   .logo{
     display: none;
@@ -427,4 +448,35 @@ nav .mainMenu .closeMenu , .icons i {
   .fa-instagram:hover {color:#7b0000ff;}
   .fa-github:hover {color:#7b0000ff}
   
+  .article{
+    padding: 0 0 20px 0;
+    
+  }
+
+  .article p{
+    width: 90%;
+    margin: auto;
+  }
+
+  .photos{
+    background-size: cover;
+    background-position: 60%;
+
+  }
+
+  .pytanie h2{
+    font-size: 25px;
+  }
+
+  .tipy{
+    width: 95%;
+  }
+
+  .zmniejszanie h2{
+    font-size: 25px;
+  }
+
+  .serwis h2{
+    font-size: 25px;
+  }
 }

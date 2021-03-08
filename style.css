@@ -148,6 +148,11 @@ a.active {
   font-size: 20px;
 }
 
+.nag h2{
+  text-align: center;
+  color: white;
+}
+
 /* --------------- formatowanie article 1 - 6 img -------------*/
 
 .article-img-1{

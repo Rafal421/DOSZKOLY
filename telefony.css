@@ -142,7 +142,7 @@ nav {
 }
 
 .article-img-1 {
-  background-image: url(art/6.jpg);
+  background-image: url(art/background.jpg);
 }
 
 /* --------------- formatowanie uslugi -------------*/
@@ -163,7 +163,7 @@ nav {
 }
 
 .uslugi{
-  width: 93%;
+  width: 96%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto 20px auto;
@@ -172,7 +172,7 @@ nav {
 
 .usluga{
   text-align: center;
-  width: 30%;
+  width: 47%;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.521);
   padding: 10px;
@@ -196,37 +196,32 @@ nav {
 }
 
 .background{
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  background-image: url(art/7.jpg);
+  background-image: url(art/background3.jpg);
   border-radius: 30px;
   padding: 20px 0 20px 0;
 }
 
 .photos-1{
-  background-image: url(art/2.jpg)
+  background-image: url(art/telefon2.jpg)
 }
 
 .photos-2{
-  background-image: url(art/1.jpg)
+  background-image: url(art/telefon5.jpg)
 }
 
 .photos-3{
-  background-image: url(art/3.jpg)
+  background-image: url(art/telefon4.jpg)
 }
 
-.photos-5{
-  background-image: url(art/bezpieczenstwo.jpg)
+.photos-4{
+  background-image: url(art/telefon1.jpg)
 }
 
-.photos-6{
-  background-image: url(art/5.jpg)
-}
 
-.photos-7{
-  background-image: url(art/4.jpg)
-}
 
 
 
@@ -251,7 +246,7 @@ h2 a:hover{
   margin: 20px auto 20px auto;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  background-image: url(art/desert.jpg);
+  background-image: url(art/telefon3.jpg);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,34 +260,9 @@ h2 a:hover{
 .pytanie p{
   font-size: 18px;
   font-weight: 700;
-}
+  width: 70%;
+  margin: 20px auto 20px auto;
 
-
-.tipy{
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 5px 0 10px 0;
-  margin: 20px auto 20px auto ;
-  border-radius: 30px;
-  width: 80%;
-
-}
-
-.tipy h2{
-  font-size: 40px;
-  margin: 10px;
-}
-
-.tipy p{
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.zmniejszanie{
-  width: 80%;
-  margin: auto;
 }
 
 iframe{
@@ -361,15 +331,14 @@ nav .mainMenu .closeMenu , .icons i {
     
   }
 
+  .pytanie p{
+    width: 90%;
+  }
+
 }
 @media only screen and (max-width: 905px){
   .logo{
     display: none;
-  }
-
-  .tipy h2{
-    font-size: 30px;
-    margin: 10px;
   }
 
   .kontakt h2{
@@ -487,10 +456,6 @@ nav .mainMenu .closeMenu , .icons i {
     font-size: 25px;
   }
 
-  .tipy{
-    width: 95%;
-  }
-
   .zmniejszanie h2{
     font-size: 25px;
   }
@@ -499,7 +464,4 @@ nav .mainMenu .closeMenu , .icons i {
     font-size: 25px;
   }
 
-  iframe{
-    width: 100%;
-  }
 }

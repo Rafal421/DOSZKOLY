@@ -142,7 +142,7 @@ nav {
 }
 
 .article-img-1 {
-  background-image: url(art/6.jpg);
+  background-image: url(art/drukarka4.jpg);
 }
 
 /* --------------- formatowanie uslugi -------------*/
@@ -163,71 +163,56 @@ nav {
 }
 
 .uslugi{
-  width: 93%;
+  width: 96%;
   display: flex;
-  justify-content: space-between;
   margin: 20px auto 20px auto;
   color: white;
 }
 
 .usluga{
   text-align: center;
-  width: 30%;
+  width: 95%;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.521);
   padding: 10px;
+  margin:auto;
 }
 
 .usluga p{
   font-weight: 700;
+  width: 95%;
+  margin: auto;
 }
 
 .uslugi h2{
-  margin: 5px 0 5px 0;
+  margin: 30px 0 10px 0;
 }
 
 .photos{
-  width: 100%;
-  height: 350px;
-  background-repeat: no-repeat;
+  width: 90%;
+  height: 550px;
   background-size: cover;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+  background-position: 50%;
 }
 
 .background{
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  background-image: url(art/7.jpg);
+  background-image: url(art/drukarka3.jpg);
   border-radius: 30px;
   padding: 20px 0 20px 0;
 }
 
 .photos-1{
-  background-image: url(art/2.jpg)
+  background-image: url(art/drukarka2.jpg)
+  
 }
-
-.photos-2{
-  background-image: url(art/1.jpg)
-}
-
-.photos-3{
-  background-image: url(art/3.jpg)
-}
-
-.photos-5{
-  background-image: url(art/bezpieczenstwo.jpg)
-}
-
-.photos-6{
-  background-image: url(art/5.jpg)
-}
-
-.photos-7{
-  background-image: url(art/4.jpg)
-}
-
 
 
 .kontakt h2{
@@ -251,7 +236,7 @@ h2 a:hover{
   margin: 20px auto 20px auto;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  background-image: url(art/desert.jpg);
+  background-image: url(art/drukarka5.jpg);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,33 +250,13 @@ h2 a:hover{
 .pytanie p{
   font-size: 18px;
   font-weight: 700;
+  width: 70%;
+  margin: 20px auto 20px auto;
 }
 
-
-.tipy{
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 5px 0 10px 0;
-  margin: 20px auto 20px auto ;
-  border-radius: 30px;
-  width: 80%;
-
-}
-
-.tipy h2{
-  font-size: 40px;
-  margin: 10px;
-}
-
-.tipy p{
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.zmniejszanie{
-  width: 80%;
+.pytanie h3{
+  color: #7b0000ff;
+  width: 70%;
   margin: auto;
 }
 
@@ -361,15 +326,14 @@ nav .mainMenu .closeMenu , .icons i {
     
   }
 
+  .pytanie p{
+    width: 90%;
+  }
+
 }
 @media only screen and (max-width: 905px){
   .logo{
     display: none;
-  }
-
-  .tipy h2{
-    font-size: 30px;
-    margin: 10px;
   }
 
   .kontakt h2{
@@ -487,19 +451,8 @@ nav .mainMenu .closeMenu , .icons i {
     font-size: 25px;
   }
 
-  .tipy{
-    width: 95%;
-  }
-
-  .zmniejszanie h2{
-    font-size: 25px;
-  }
-
   .serwis h2{
     font-size: 25px;
   }
 
-  iframe{
-    width: 100%;
-  }
 }

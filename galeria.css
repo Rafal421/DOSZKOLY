@@ -1,9 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Georgia;
-  font-family: "Raleway", sans-serif;
   background-color: black;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* --------------- formatowanie header -------------*/
@@ -157,6 +156,7 @@ a.active {
 }
 .galeria-zdj img{
   width: 100%;
+  border-radius: 10px;
 }
 
 
@@ -205,6 +205,11 @@ nav .mainMenu .closeMenu , .icons i {
   .galeria-zdj{
   flex-direction: column;
   }
+
+  .galeria-zdj img{
+    border-radius: 10px;
+  }
+  
   .size{
     width: 95%;
     margin: auto;

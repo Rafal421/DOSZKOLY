@@ -288,16 +288,15 @@ iframe{
 }
 
 footer {
-  height: 100px;
   background-color: #333;
-  margin-top: auto;
   text-align: center;
-  justify-content: space-between;
-  display: flex;
 }
 
-.footer-position{
-  width: 50%;
+.position-footer{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
   color: white;
 }
 
@@ -319,13 +318,21 @@ nav .mainMenu .closeMenu , .icons i {
   form{
     width: 70%;
   }
+}
 
-  @media only screen and (max-width: 905px){
-    .logo{
-      display: none;
-    }
+@media only screen and (max-width: 905px){
+  .logo{
+    display: none; 
+  }
+
+  .position-footer{
+    flex-direction: column;
+  }
+  .position-footer p{
+    margin: 5px 0 5px 0;
   }
 }
+
 
 @media only screen and (max-width: 830px) {
   .contener {

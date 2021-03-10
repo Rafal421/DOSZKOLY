@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+/* --------------- formatowanie header -------------*/
+header {
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("zdj/test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 100%;
+  padding-bottom: 40px;
+}
+
+.inside_header {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.inside_header img {
+  padding: 20px;
+  height: 150px;
+}
+
+.inside_header p {
+  font-size: 18px;
+  font-weight: 400;
+  color: red;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.ikona {
+  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  position: fixed;
+}
+
+.ikona img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 5px;
+}
+
+/* --------main---------- */
+main {
+  height: 50px;
+  width: 75%;
+  margin: auto;
+  height: auto;
+}
+
+nav {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.menu li {
+  margin: 0 8px;
+  list-style-type: none;
+  font-size: 15px;
+  min-height: 35px;
+  line-height: 200%;
+  display: inline-block;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+.menu_ikony {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_ikony li {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+.menu_ikony img:hover {
+  opacity: 0.7;
+}
+
+.menu_ikony img {
+  width: 50px;
+  height: 50px;
+  padding: 0 10px 0 10px;
+}
+
+.contener {
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+}
+
+.article {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 20px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.article p{
+  font-size: 19px;
+}
+
+.article-img-1 {
+  background-image: url(art/konsola6.jpg);
+}
+
+/* --------------- formatowanie uslugi -------------*/
+.serwis{
+  text-align: center;
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+
+.serwis h2{
+  margin: 2px;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 10px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.uslugi{
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  color: white;
+}
+
+.usluga{
+  text-align: center;
+  width: 48%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.521);
+  padding: 10px;
+}
+
+.usluga p{
+  font-weight: 700;
+}
+
+.uslugi h2{
+  margin: 5px 0 5px 0;
+}
+
+.photos{
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(art/konsola1.jpg);
+  border-radius: 30px;
+  padding: 20px 0 20px 0;
+}
+
+.photos-1{
+  background-image: url(art/konsola2.jpg)
+}
+
+.photos-2{
+  background-image: url(art/konsola3.jpg)
+}
+
+.photos-3{
+  background-image: url(art/konsola4.jpg)
+}
+
+.photos-4{
+  background-image: url(art/konsola5.jpg)
+}
+
+
+
+
+
+.kontakt h2{
+  font-size: 30px;
+  color:white;
+  
+}
+
+h2 a{
+  color: #7b0000ff;
+  text-decoration: none;
+}
+
+h2 a:hover{
+  opacity: 0.6;
+}
+
+.pytanie{
+  width: 90%;
+  text-align: center;
+  margin: 20px auto 20px auto;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background-image: url(art/konsola7.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pytanie h2{
+  font-size: 40px;
+  margin: 10px;
+}
+
+.pytanie p{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.tipy{
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 5px 0 10px 0;
+  margin: 20px auto 20px auto ;
+  border-radius: 30px;
+  width: 80%;
+
+}
+
+.tipy h2{
+  font-size: 40px;
+  margin: 10px;
+}
+
+.tipy p{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.zmniejszanie{
+  width: 80%;
+  margin: auto;
+}
+
+iframe{
+  border-radius: 20px;
+  
+}
+.filmik{
+  margin: 40px 0 40px 0;
+}
+
+
+/* --------------- formatowanie footer -------------*/
+
+.copyrights {
+  text-align: center;
+  color: #7b0000ff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+}
+
+.position-footer{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: white;
+}
+
+nav .openMenu {
+  display: none;
+  margin: 0;
+}
+nav .mainMenu .closeMenu , .icons i {
+  display: none;
+}
+
+.mainMenu{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1270px){
+  .uslugi{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .usluga{
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+
+  .photos{
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  .background{
+    width: 95%;
+    margin: auto;
+    background-position: 100%;
+  }
+
+  iframe{
+    width: 80%;
+    
+  }
+
+}
+@media only screen and (max-width: 905px){
+  .logo{
+    display: none;
+  }
+
+  .tipy h2{
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .kontakt h2{
+    font-size: 25px;
+  }
+
+  .position-footer{
+    flex-direction: column;
+  }
+  .position-footer p{
+    margin: 5px 0 5px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contener {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .inside_header img {
+    width: 100%;
+    padding: 20px 0 20px;
+  }
+
+  .inside_header {
+    padding: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .menu_ikony img {
+    width: 30px;
+    height: 30px;
+    padding: 2px 5px 0 5px;
+  }
+
+  nav{
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li{
+    font-size: 20px;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: red;
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  nav .openMenu {
+    font-size: 2rem;
+    cursor: pointer;
+    
+  }
+  nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .fa-facebook:hover {color:#7b0000ff;}
+  .fa-twitter:hover {color: #7b0000ff;}
+  .fa-instagram:hover {color:#7b0000ff;}
+  .fa-github:hover {color:#7b0000ff}
+  
+  .article{
+    padding: 0 0 20px 0;
+    
+  }
+
+  .article p{
+    width: 90%;
+    margin: auto;
+  }
+
+  .photos{
+    background-size: cover;
+    background-position: 60%;
+
+  }
+
+  .pytanie h2{
+    font-size: 25px;
+  }
+
+  .tipy{
+    width: 95%;
+  }
+
+  .zmniejszanie h2{
+    font-size: 25px;
+  }
+
+  .serwis h2{
+    font-size: 25px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+}

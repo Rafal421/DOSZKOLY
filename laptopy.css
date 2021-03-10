@@ -301,12 +301,17 @@ h2 a:hover{
 }
 /* --------------- formatowanie footer -------------*/
 
-.copyrights {
+footer {
+  background-color: #333;
   text-align: center;
-  color: #7b0000ff;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 5px;
+}
+
+.position-footer{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: white;
 }
 
 footer {
@@ -355,6 +360,13 @@ nav .mainMenu .closeMenu , .icons i {
 @media only screen and (max-width: 905px){
   .logo{
     display: none;
+  }
+
+  .position-footer{
+    flex-direction: column;
+  }
+  .position-footer p{
+    margin: 5px 0 5px 0;
   }
 }
 

@@ -176,12 +176,16 @@ a.active {
 }
 
 footer {
-  height: 100px;
   background-color: #333;
-  margin-top: auto;
   text-align: center;
-  justify-content: space-between;
+}
+
+.position-footer{
+  width: 80%;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: white;
 }
 
 nav .openMenu {
@@ -222,6 +226,13 @@ nav .mainMenu .closeMenu , .icons i {
     border-bottom: 1px solid white;
     display: flex;
     width: 95%;
+  }
+
+  .position-footer{
+    flex-direction: column;
+  }
+  .position-footer p{
+    margin: 5px 0 5px 0;
   }
 }
 

@@ -181,7 +181,7 @@ nav {
 .usluga p{
   font-weight: 700;
   width: 95%;
-  margin: auto;
+  margin: 10px auto 20px auto;
 }
 
 .uslugi h2{
@@ -258,6 +258,7 @@ h2 a:hover{
   color: #7b0000ff;
   width: 70%;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 iframe{
@@ -280,12 +281,16 @@ iframe{
 }
 
 footer {
-  height: 100px;
   background-color: #333;
-  margin-top: auto;
   text-align: center;
-  justify-content: space-between;
+}
+
+.position-footer{
+  width: 80%;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: white;
 }
 
 nav .openMenu {
@@ -338,6 +343,13 @@ nav .mainMenu .closeMenu , .icons i {
 
   .kontakt h2{
     font-size: 25px;
+  }
+
+  .position-footer{
+    flex-direction: column;
+  }
+  .position-footer p{
+    margin: 5px 0 5px 0;
   }
 }
 

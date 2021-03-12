@@ -140,11 +140,18 @@ a.active {
   color: white;
 }
 
+.article p{
+  width: 95%;
+  margin: 0 auto 20px auto;
+
+}
+
 .article a {
   text-decoration: none;
   color: #7b0000ff;
   font-weight: 700;
   font-size: 20px;
+  
 }
 
 .nag h2{

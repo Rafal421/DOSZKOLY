@@ -137,34 +137,20 @@ a.active {
   border-bottom: 1px solid white;
 }
 
-.firmy-box{
-  width: 65%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.ty{
   color: white;
   margin: auto;
-  margin-top: 20px;
+  text-align: center;
 }
 
-.margin-all{
-  margin: 30px;
+.ty h2{
+  font-size: 50px;
+  margin: 80px auto 20px auto;
 }
 
-.tluste img{
-  width: 60%;
-}
-
-.audiofilek img{
-  width: 60%;
-}
-
-.Exoternet img{
-  width: 60%;
-}
-
-.Stachu img{
-  width: 60%;
+.ty p{
+  font-size: 30px;
+  margin: auto auto 150px auto;
 }
 
 
@@ -183,6 +169,8 @@ a.active {
 footer {
   background-color: #333;
   text-align: center;
+  height: 120px;
+  
 }
 
 .position-footer{
@@ -209,29 +197,6 @@ nav .mainMenu .closeMenu , .icons i {
 @media only screen and (max-width: 905px){
   .logo{
     display: none;
-  }
-
-  .firmy-box{
-    margin-top: 20px;
-  }
-  .margin-all{
-    margin:20px 8px 20px 8px;
-  }
-
-  .firmy-box{
-    width: 100%;
-  }
-
-  .tluste img{
-    width: 70%;
-  }
-  
-  .audiofilek img{
-    width: 70%;
-  }
-  
-  .Exoternet img{
-    width: 70%;
   }
   
   .promo h2{
@@ -326,6 +291,10 @@ nav .mainMenu .closeMenu , .icons i {
   
   .article{
     width: 90%;
+  }
+
+  footer{
+    height: auto;
   }
 
 

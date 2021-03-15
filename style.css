@@ -5,6 +5,51 @@ body {
   background-color: black;
 }
 
+
+.sign{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 200;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+}
+
+.sign.display-none{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: -10;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+  transition: all 0.3s;
+}
+
+.sign h1{
+  font-size: 70px;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+
 /* --------------- formatowanie header -------------*/
 header {
   padding-top: 40px;
@@ -157,6 +202,7 @@ a.active {
 .nag h2{
   text-align: center;
   color: white;
+  
 }
 
 /* --------------- formatowanie article 1 - 6 img -------------*/
@@ -233,6 +279,10 @@ nav .mainMenu .closeMenu , .icons i {
   }
   .position-footer p{
     margin: 5px 0 5px 0;
+  }
+
+  .sign h1{
+    font-size: 40px;
   }
 
 }
@@ -327,5 +377,9 @@ nav .mainMenu .closeMenu , .icons i {
   .fa-twitter:hover {color: #7b0000ff;}
   .fa-instagram:hover {color:#7b0000ff;}
   .fa-github:hover {color:#7b0000ff}
+
+  .sign h1{
+    font-size: 30px;
+  }
   
 }

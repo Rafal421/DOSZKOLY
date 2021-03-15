@@ -15,3 +15,12 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+
+const splash = document.querySelector('.sign');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        splash.classList.add('display-none');
+    }, 2000);
+})

@@ -155,18 +155,44 @@ a.active {
   width: 60%;
 }
 
+.tluste a:hover{
+  opacity: 0.6;
+}
+
 .audiofilek img{
   width: 60%;
+}
+
+.audiofilek a:hover{
+  opacity: 0.6;
 }
 
 .Exoternet img{
   width: 60%;
 }
 
+.Exoternet a:hover{
+  opacity: 0.6;
+}
+
 .Stachu img{
   width: 60%;
 }
 
+.Stachu a:hover{
+  opacity: 0.6;
+}
+
+.dodatek a {
+  font-size: 40px;
+  margin: 18px 0 18px 0;
+  text-decoration: none;
+  color: white;
+}
+
+.dodatek a:hover{
+  color: #7b0000ff;
+}
 
 
 /* --------------- formatowanie footer -------------*/
